@@ -128,7 +128,7 @@ Data Coordinator & Lecturer | Aspiring Data Analyst
 📍 Open to Data Analyst / MIS Executive roles in Dubai, UAE
 
 - 🔗 [LinkedIn](https://www.linkedin.com/in/lovepreet-072824395/)
-- 💻 [GitHub](#) <!-- add your GitHub profile URL -->
+
 
 ---
 
