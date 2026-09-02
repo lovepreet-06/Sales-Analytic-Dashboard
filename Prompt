@@ -1,0 +1,86 @@
+ROLE:
+You are a senior data analyst and frontend developer. Build a fully 
+interactive, single-file HTML + JavaScript dashboard using the Excel 
+file I will upload.
+
+DATA:
+File type: Excel (.xlsx)
+Columns: Order_ID, Customer_Name, Age, Gender, City, Product_Category, 
+Quantity, Price_Per_Unit, Discount, Total_Amount, Payment_Method, 
+Order_Date, Customer_Rating
+
+OUTPUT FORMAT:
+- One single self-contained HTML file (HTML + CSS + JavaScript inside it)
+- Use Chart.js (or similar CDN library) for all charts
+- Read and process the uploaded Excel data using SheetJS (xlsx.js)
+- Fully interactive: charts should respond to filters
+- Must work directly in a browser, no server needed
+
+DESIGN THEME (Power BI style, dark mode):
+- Background: deep charcoal (#1A1A1D)
+- Cards/panels: dark slate (#2A2A2E)
+- Primary accent (revenue, key numbers): coral orange (#FF6B4A)
+- Secondary accent: gold (#E0B84E)
+- Text color: off-white (#F2F2F2)
+- Clean modern sans-serif font (e.g., Segoe UI, Inter)
+- Add a top navigation tab bar with two tabs: 
+  "Sales Overview" and "Customer & Geography"
+- Layout: 16:9 landscape, clean grid of cards and charts
+- High-resolution, sharp text, professional portfolio look
+
+DASHBOARD PAGE 1: SALES OVERVIEW
+
+Top KPI Cards (row of 4):
+1. Total Revenue
+2. Total Orders
+3. Total Quantity Sold
+4. Average Order Value
+
+Charts:
+5. Line Chart — Revenue Trend (Monthly), from Order_Date and Total_Amount
+6. Bar Chart — Revenue by Product Category
+7. Bar Chart — Quantity Sold by Category
+8. Bar Chart — Average Discount by Category
+9. Scatter Chart — Discount Impact on Revenue (Discount vs Total_Amount)
+10. Line Chart — Peak Sales Months/Days (seasonal pattern)
+
+DASHBOARD PAGE 2: CUSTOMER & GEOGRAPHY
+
+KPI Card:
+11. Average Customer Rating (overall)
+
+Charts:
+12. Histogram/Bar Chart — Customer Distribution by Age Group 
+    (bucket ages: 18-25, 26-35, 36-45, 46-55, 56+)
+13. Donut Chart — Gender-wise Revenue Split
+14. Bar Chart/Table — Top 10 Customers by Total Spend
+15. Bar Chart — Average Customer Rating by Category
+16. Bar Chart — Revenue by City
+17. Bar Chart — Order Volume by City
+18. Donut Chart — Orders by Payment Method
+19. Bar Chart — Average Order Value by Payment Method
+
+INTERACTIVITY REQUIREMENTS:
+- Add filter dropdowns at the top: Product_Category, City, Gender, 
+  Payment_Method, and Date Range
+- All charts and KPI cards must update live when filters change
+- Add hover tooltips on all charts showing exact values
+- Tab switch between "Sales Overview" and "Customer & Geography" 
+  without reloading the page
+
+CALCULATIONS TO USE:
+- Total Revenue = SUM(Total_Amount)
+- Total Orders = COUNT(Order_ID)
+- Total Quantity Sold = SUM(Quantity)
+- Average Order Value = Total Revenue / Total Orders
+- Average Discount by Category = AVG(Discount) grouped by Product_Category
+- Revenue by City/Category/Gender = SUM(Total_Amount) grouped accordingly
+- Top 10 Customers = SUM(Total_Amount) grouped by Customer_Name, sorted 
+  descending, top 10 only
+
+FINAL GOAL:
+This dashboard is for my Data Analyst job portfolio (GitHub + LinkedIn). 
+It must look professional, clean, and recruiter-ready — like a real 
+Power BI dashboard, but built in HTML/JS.
+
+Please generate the complete HTML file now, ready to open in a browser.
