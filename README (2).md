@@ -88,19 +88,6 @@ A sample dataset (999 orders) is embedded in the dashboard by default. You can r
 1. Push this file to a GitHub repository
 2. Enable GitHub Pages (Settings → Pages → deploy from branch)
 3. Share the live link on your resume / LinkedIn
-
----
-
-## 📸 Screenshots
-
-**Sales Overview**
-![Sales Overview - KPIs and Trends](Dashboard(1).png)
-![Sales Overview - Category & Discount Analysis](Dashboard(2).png)
-
-**Customer & Geography**
-![Customer Overview](Dashboard(3).png)
-![City & Payment Analysis](Dashboard(4).png)
-
 ---
 
 ## 🎯 About This Project
