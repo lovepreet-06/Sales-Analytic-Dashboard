@@ -2,14 +2,6 @@
 
 An interactive, single-file **Sales & Customer Analytics Dashboard** built with **HTML, CSS, JavaScript, and Chart.js** — styled to look and feel like a professional **Power BI dashboard**, but running 100% in the browser with **no server, no installation, and no internet connection required**.
 
-![Dashboard Preview](screenshots/dashboard-1.png)
-
----
-
-## 🔗 Live Demo
-
-👉 [View Live Dashboard](#) <!-- replace # with your GitHub Pages link -->
-
 ---
 
 ## ✨ Key Features
@@ -102,12 +94,12 @@ A sample dataset (999 orders) is embedded in the dashboard by default. You can r
 ## 📸 Screenshots
 
 **Sales Overview**
-![Sales Overview - KPIs and Trends](screenshots/dashboard-1.png)
-![Sales Overview - Category & Discount Analysis](screenshots/dashboard-2.png)
+![Sales Overview - KPIs and Trends](Dashboard(1).png)
+![Sales Overview - Category & Discount Analysis](Dashboard(2).png)
 
 **Customer & Geography**
-![Customer Overview](screenshots/dashboard-3.png)
-![City & Payment Analysis](screenshots/dashboard-4.png)
+![Customer Overview](Dashboard(3).png)
+![City & Payment Analysis](Dashboard(4).png)
 
 ---
 
